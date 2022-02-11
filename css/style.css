@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333333;
+}
+.heder {
+  text-align: center;
+  color: #ffffff;
+  padding: 6em;
+  background: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+  height: 450px;
+}
+.div-hed {
+  padding: 25px;
+}
+.button {
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 12px;
+  border: #ffffff 1px solid;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-top: 50px;
+  outline: none;
+  background-color: #000000bb;
+}
+.section-white {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 2em;
+}
+.img {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+.ul-center {
+  list-style: none;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+/* Не получилось сблизить контейры между собой */
+.ul-position-li {
+  margin-bottom: 1em;
+  background: #ffffff;
+  color: #333333;
+  width: 20%;
+}
+.div-list-item {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1.5em;
+}
+.section-dark-grey {
+  padding: 2em 1em 1em;
+}
+article {
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+}
+.article-blue {
+  background-color: aqua;
+}
+.div-footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5em;
+}
+/* И Contact Us с About Our Company получились не равномерными */
